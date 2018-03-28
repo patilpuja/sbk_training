@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sbk_training *.css
+recursive-include sbk_training *.csv
+recursive-include sbk_training *.html
+recursive-include sbk_training *.ico
+recursive-include sbk_training *.js
+recursive-include sbk_training *.json
+recursive-include sbk_training *.md
+recursive-include sbk_training *.png
+recursive-include sbk_training *.py
+recursive-include sbk_training *.svg
+recursive-include sbk_training *.txt
+recursive-exclude sbk_training *.pyc
